@@ -1,0 +1,513 @@
+header, nav,main,footer,figure,section,aside{ display: block;}
+
+/*html{
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}*/
+body{
+	/*margin:0;*/
+	background-image: url(images/background.png);
+	margin-right:auto;
+	font: 18px Arial, Helvetica, sans-serif;
+	margin-left:auto;
+}
+header{	
+	background-image: url(images/sport.png);
+	height: 500px; 
+	width:1340px;
+	/*border-radius:30px; */
+	margin-bottom:10px; 
+	/*float: center;*/
+}
+header li{
+	float: right
+	
+}
+h1{
+	color: #ffffff;
+	font-size: 280%;
+	text-align: center;
+	padding-top:10px;
+	margin-left:20px;
+	float:center;
+}
+figure#logo{
+	width: 120px;
+	 height:120px;
+	float: left;
+	/*margin-left: px;*/
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+	/*margin-left:80px;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/***********************************************************/
+/*index.html*/
+/***********************************************************/
+figure#detect{
+	float:right;
+}
+figure#name{
+	float:center;
+	margin-left: 500px;
+	color:#ff3333;
+}
+figure#main{
+	background-image: url(images/wayne.png);
+	height:700px;
+	width:1300px;
+	margin-left:30px;
+	overflow:hidden;
+	line-height:1.75;
+}
+ h2{
+	 /*border: 4px solid #000000;*/
+	 color:#ff3333;
+	 font-size: 180%;
+	text-align: center;
+	padding-top:20px;
+	float:right;
+	margin-right:130px;
+ }
+ h4{
+	color:#ffffff;
+	margin-left:630px;
+}
+ footer{
+	 width: 1340px;
+	 background-color: #f1f1f1
+	text-align: center;
+	font-size: 120%;
+	/*color: #ffffff;*/
+	padding-right:90px;
+	padding-bottom:20px;
+	
+	
+}
+footer ul{
+	
+	padding:0px;
+	margin: 0px;
+}
+footer li{
+	float:left;
+	list-style:none;
+	padding-left:15px;
+}
+p{
+	margin-right:50px;
+}
+ main{
+	
+	/*margin-left:50px;*/
+    height: auto;
+	overflow:hidden;
+	line-height:1.75;
+	
+}
+
+section{
+	
+	border: 6px solid #1C478E;
+	border-radius:10px;
+	background-color: #ffffff;
+	float:left;
+	margin-left:10px;
+	/*color: #ffffff;*/
+	margin-top:5px;
+	margin-bottom:20px;
+	padding-left:70px;
+}
+h3{
+	float:center;
+	margin-left:350px;
+	color:#ff3333;
+}
+figure#wayne{
+	
+	margin-left: 400px;
+}
+{
+	/*background-color: #10100a;
+	 border: 4px solid #000000;
+	 /*color: #ffffff;*/
+	 font-size:180%
+	margin-left:
+	 float:left;
+ }
+ /*********************************************************/
+ /*morenew.html*/
+ /*********************************************************/
+ .thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+	/*margin-left:100px;*/
+}
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+	margin-left:250px;
+
+}
+figcaption {
+	
+	margin-left:500px;
+	font-size: 180%;
+}
+/**********************************************************************/
+/*player.html*/
+/**********************************************************************/
+figure#main{
+	background-image: url(images/wayne.png);
+	height:700px;
+	width:1200px;
+	margin-left:40px;
+	overflow:hidden;
+	line-height:1.75;
+}
+aside{
+	border-radius:10px;
+	
+	width:190px;
+	float: left;
+	margin-left:10px;
+	margin-top:50px;
+	margin-bottom:20px;
+	padding-right:70px;
+}
+
+
+/*aside ul{
+	list-style:none;
+	padding:0px;
+}*/
+aside li a{
+	
+	font-size:20px;
+	font-weight:bold;
+}
+aside ul li{
+	border-bottom:#ffffff dashed 2px;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+
+/*aside h3{
+	color:#ffffff;
+	padding-bottom:5px;
+	border-bottom:#ffffff solid 2px;
+ */
+}
+figure#container{
+	
+  max-width:700px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: 80px;
+  box-sizing: border-box;
+}
+figure#container a img {
+  border: 6px solid #1C478E;
+	border-radius:10px;
+	/*background-color: #ffffff;*/
+  float: left;
+  margin-left:10px;
+  width: 20%;
+  height: auto;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+figure#container  a:hover img {
+  transform: scale(1.05);
+} 
+figure#container{
+	/*border: 6px solid #ff3333;
+	border-radius:10px;*/
+	/*background-color: #ffffff;*/
+	float:left;
+	margin-left:200px;
+	/*color: #ffffff;*/
+	margin-top:2px;
+	margin-bottom:20px;
+	padding-left:70px;
+}
+/*
+Target the tags in the JavaScript file to centre the image gallery
+*/
+.sl-wrapper .sl-image{
+	position:fixed;
+}
+.sl-wrapper .sl-counter{
+	display:none;
+	position:fixed;
+	top:30px;
+	left:30px;
+	font-size:16px;
+	font-weight:bold;
+	color: #ffffff;
+}
+.sl-wrapper .sl-navigation button{
+	position:fixed;
+	top:50%;
+	margin-top:-10px;
+	height:30px;
+	width:30px;
+	line-height:30px;
+	display:block;
+}
+.sl-wrapper .sl-navigation button.sl-next{
+	right:40px;
+}
+.sl-wrapper .sl-navigation button.sl-prev{
+	left:40px;
+}
+.sl-wrapper .sl-close{
+	display:none;
+	position:fixed;
+	right:30px;
+	top:30px;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*************************************************************************/
+/*fixture.html*/
+/*************************************************************************/
+figure#fixturemain{
+	background-image: url(images/fixture.png);
+	height:900px;
+	width:1280px;
+	
+	overflow:hidden;
+	line-height:1.75;
+}
+/****************************************************************************/
+/*league.html*/
+/****************************************************************************/
+table, th, td {
+	
+	
+	color: #d9d9d9;
+    border: 1px solid black;
+    border-collapse: collapse;
+	margin-left:330px;
+}
+th, td {
+	background-color: #ff0000;
+    padding: 5px;
+}
+th{
+	background-color:#00ff00;
+}
+@keyframes fadey {
+	0% { opacity: 0; }
+	15% { opacity: 1; }
+	85% { opacity: 1; }
+	100% { opacity: 0; }
+}
+figure#slideshow {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	float:right;
+	margin-right:80px;
+}
+figure#slideshow img {
+	position: absolute;
+	left: 0; top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+}
+figure#slideshow img:first-child { 
+	position: relative;
+}
+figure#bk{
+	float: left;
+	margin-top: 40px;
+}
+figure#ft{
+	float:right;
+	margin-top: 5px;
+}
+figure#premier{
+	margin-left:25px;
+	float:center;
+}
+/******************************************************/
+/*sign.html*/
+/******************************************************/
+figure#signup{
+	
+	float: center;
+	margin-left: 250px;
+	
+}
+#map{
+    width: 325px;
+    float:right;
+	margin:15px;
+}		
+figure#frame{
+	float:right;
+}
+label{
+	float:left;
+	/*margin-left: 300px;*/
+}
+input[type=text], select {
+    width: 30%;
+    padding: 12px;
+    margin: 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/**************************************************/
+/*login.html*/
+/**************************************************/
+figure#form{
+	float:center;
+	margin-left: 550px;
+}
+/**************************************************/
+/*ticket.html*/
+/**************************************************/
+figure#ticket{
+	float:center;
+	margin-left: 300px;
+}
+figure#cycling{
+	float: right;
+	margin-right;50px;
+}
+
+/**************************************************/
+/*acount.html*/
+/*************************************************/
+figure#click{
+	float:center;
+	margin-left:550px;
+}
+/*************************************************/
+/*video.html*/
+/*************************************************/
+figure#videomain{
+	float:center;
+	margin-left:200px;
+}
